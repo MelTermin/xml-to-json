@@ -1,0 +1,80 @@
+#results {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#insurance_results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  height:80px;
+  border: 2px solid #528b8b;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 13px 5px;
+  width: 100px;
+  height: 30px;
+  background-color:#74a2a2 ;
+  border:none;
+  border-radius: 3px;
+  color:white;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+ 
+
+  #insurance_results {
+  width: 760px;
+  
+  }
+
+ 
+}
+
+@media screen and (max-width: 414px) {
+  #results {
+    margin-left: 50px;
+  }
+
+  #insurance_results {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  text-align: center;
+  
+  }
+
+
+
+  h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 13px 100px;
+  }
+
+ 
+ 
+}
+
+@media screen and (max-width: 375px)  {
+  #results {
+    margin-left: 30px;
+  }
+}

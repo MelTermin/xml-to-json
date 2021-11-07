@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<recordSetDataItem>
+   <policyYear>2</policyYear>
+   <age>50</age>
+   <coverageText>$500,000</coverageText>
+   <coverage>500000</coverage>
+   <premiumText>$570.00</premiumText>
+   <premium>570.00</premium>
+   <cashValueText>$0</cashValueText>
+   <cashValue>0</cashValue>
+   <paidUpText>$0</paidUpText>
+   <paidUp>0</paidUp>
+   <waiverOfPremiumText>$80.00</waiverOfPremiumText>
+   <waiverOfPremium>80.00</waiverOfPremium>
+   <paymentText>$650.00</paymentText>
+   <payment>650.00</payment>
+</recordSetDataItem>
